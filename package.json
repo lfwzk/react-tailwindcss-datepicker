@@ -1,6 +1,6 @@
 {
     "name": "react-datepicker-bairu",
-    "version": "1.7.2",
+    "version": "1.0.1",
     "description": "A modern React Datepicker",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
@@ -26,9 +26,7 @@
         "url": "https://github.com/lfwzk/react-tailwindcss-datepicker"
     },
     "keywords": [
-        "react-tailwindcss-datepicker",
         "react-datepicker",
-        "tailwind-datepicker",
         "datepicker",
         "date-picker",
         "daterangepicker",

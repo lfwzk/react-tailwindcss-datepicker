@@ -2,6 +2,7 @@
 
 import Head from "next/head";
 import { useState } from "react";
+import React from "react";
 
 import Datepicker, {
     ColorKeys,
@@ -13,7 +14,6 @@ import Datepicker, {
 } from "../src";
 import { COLORS, DATE_LOOKING_OPTIONS } from "../src/constants";
 import { dateFormat, dateIsValid } from "../src/libs/date";
-import React from "react";
 
 const WEEK_DAY = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"] as const;
 const POPOVER_DIRECTION = ["up", "down"] as const;
