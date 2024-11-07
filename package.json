@@ -1,11 +1,11 @@
 {
-    "name": "react-tailwindcss-datepicker",
+    "name": "datepicker-bairu",
     "version": "1.7.2",
-    "description": "A modern React Datepicker using Tailwind CSS 3",
+    "description": "A modern React Datepicker",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
-    "author": "onesine",
+    "author": "lfwzk",
     "license": "MIT",
     "scripts": {
         "watch": "rollup -c -w",
@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/onesine/react-tailwindcss-datepicker"
+        "url": "https://github.com/lfwzk/react-tailwindcss-datepicker"
     },
     "keywords": [
         "react-tailwindcss-datepicker",

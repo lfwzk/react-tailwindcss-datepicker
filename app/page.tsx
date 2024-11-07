@@ -22,14 +22,14 @@ export default function Playground() {
         startDate: null,
         endDate: null
     });
-    const [primaryColor, setPrimaryColor] = useState("blue");
+    const [primaryColor, setPrimaryColor] = useState("orange");
     const [useRange, setUseRange] = useState(true);
     const [showFooter, setShowFooter] = useState(false);
     const [showShortcuts, setShowShortcuts] = useState(false);
     const [asSingle, setAsSingle] = useState(false);
     const [placeholder, setPlaceholder] = useState("");
     const [separator, setSeparator] = useState("~");
-    const [i18n, setI18n] = useState("en");
+    const [i18n, setI18n] = useState("es");
     const [disabled, setDisabled] = useState(false);
     const [inputClassName, setInputClassName] = useState("");
     const [containerClassName, setContainerClassName] = useState("");
@@ -75,27 +75,27 @@ export default function Playground() {
                     showShortcuts={showShortcuts}
                     configs={{
                         shortcuts: {
-                            today: "Today",
-                            yesterday: "Yesterday",
-                            past: period => `Last ${period} days`,
-                            currentMonth: "This month",
-                            pastMonth: "Last month",
+                            today: "Hoy",
+                            yesterday: "Ayer",
+                            past: period => `Últimos ${period} días`,
+                            currentMonth: "Este mes",
+                            pastMonth: "Mes pasado",
                             last3Days: {
-                                text: "Last 3 days",
+                                text: "Últimos 3 días",
                                 period: {
                                     start: new Date(new Date().setDate(new Date().getDate() - 3)),
                                     end: new Date()
                                 }
                             },
                             thisDay: {
-                                text: "This Day",
+                                text: "Este día",
                                 period: {
                                     start: new Date(),
                                     end: new Date()
                                 }
                             },
                             next8Days: {
-                                text: "Next 8 days",
+                                text: "Próximos 8 días",
                                 period: {
                                     start: new Date(),
                                     end: new Date(new Date().setDate(new Date().getDate() + 8))
