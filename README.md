@@ -1,4 +1,4 @@
-# React Datepicker en español 
+# React Datepicker en español
 
 <p align="center">
     <a href="https://bairu.io" target="_blank">
@@ -6,8 +6,6 @@
     <br><br>
     Un moderno datepicker para proyectos en español, usado para Bairu Una Startup en Techstars
 </p>
-
-
 
 ## Official Documentation repo
 
@@ -19,5 +17,4 @@
 -   [React](https://reactjs.org/)
 -   [Tailwind CSS](https://tailwindcss.com/)
 -   [dayjs](https://day.js.org/)
--    [react-tailwind-datepicker] (https://react-tailwindcss-datepicker.vercel.app/)
-
+-   [react-tailwind-datepicker] (https://react-tailwindcss-datepicker.vercel.app/)

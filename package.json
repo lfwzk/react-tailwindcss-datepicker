@@ -1,6 +1,6 @@
 {
     "name": "react-datepicker-bairu",
-    "version": "1.0.1",
+    "version": "1.0.5",
     "description": "A modern React Datepicker",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
@@ -40,8 +40,9 @@
         "react": "^17.0.2 || ^18.2.0"
     },
     "devDependencies": {
-        "@rollup/plugin-commonjs": "^26.0.1",
-        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^26.0.3",
+        "@rollup/plugin-node-resolve": "^15.3.0",
         "@rollup/plugin-typescript": "^11.1.6",
         "@tailwindcss/forms": "^0.5.7",
         "@types/node": "^22.3.0",
