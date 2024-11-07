@@ -7,14 +7,14 @@ const DEFAULT_SHORTCUTS: {
     [key in string]: ShortcutsItem | ShortcutsItem[];
 } = {
     today: {
-        text: "Today",
+        text: "Hoy",
         period: {
             start: CURRENT_DATE,
             end: CURRENT_DATE
         }
     },
     yesterday: {
-        text: "Yesterday",
+        text: "Ayer",
         period: {
             start: dateAdd(CURRENT_DATE, -1, "day"),
             end: dateAdd(CURRENT_DATE, -1, "day")
@@ -23,7 +23,7 @@ const DEFAULT_SHORTCUTS: {
     past: [
         {
             daysNumber: 7,
-            text: "Last 7 days",
+            text: "Ultimos 7 días",
             period: {
                 start: dateAdd(CURRENT_DATE, -7, "day"),
                 end: CURRENT_DATE
@@ -31,7 +31,7 @@ const DEFAULT_SHORTCUTS: {
         },
         {
             daysNumber: 30,
-            text: "Last 30 days",
+            text: "Ultimos 30 días",
             period: {
                 start: dateAdd(CURRENT_DATE, -30, "day"),
                 end: CURRENT_DATE
@@ -39,14 +39,14 @@ const DEFAULT_SHORTCUTS: {
         }
     ],
     currentMonth: {
-        text: "This month",
+        text: "Este mes",
         period: {
             start: firstDayOfMonth(CURRENT_DATE),
             end: endDayOfMonth(CURRENT_DATE)
         }
     },
     pastMonth: {
-        text: "Last month",
+        text: "Mes pasado",
         period: {
             start: firstDayOfMonth(previousMonthBy(CURRENT_DATE)),
             end: endDayOfMonth(previousMonthBy(CURRENT_DATE))
