@@ -1,3 +1,4 @@
+import React from "react";
 import { memo, ReactNode, useCallback, useContext, useMemo } from "react";
 
 import { TEXT_COLOR } from "../constants";

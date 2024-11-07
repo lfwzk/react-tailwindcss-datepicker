@@ -1,3 +1,4 @@
+import React from "react";
 import { useCallback, useContext } from "react";
 
 import { BG_COLOR, TEXT_COLOR } from "../../constants";

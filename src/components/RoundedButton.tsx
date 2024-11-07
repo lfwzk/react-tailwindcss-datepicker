@@ -1,3 +1,4 @@
+import React from "react";
 import { useCallback, useContext } from "react";
 
 import { BUTTON_COLOR } from "../constants";

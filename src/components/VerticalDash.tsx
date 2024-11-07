@@ -1,3 +1,4 @@
+import React from "react";
 import { useContext } from "react";
 
 import { BG_COLOR } from "../constants";

@@ -1,3 +1,5 @@
+import React from "react";
+
 import { IconProps } from "../../types";
 
 const CloseIcon = (props: IconProps) => {

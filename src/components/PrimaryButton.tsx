@@ -1,3 +1,4 @@
+import React from "react";
 import { useCallback, useContext } from "react";
 
 import { BG_COLOR, BORDER_COLOR, RING_COLOR } from "../constants";

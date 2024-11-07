@@ -1,3 +1,5 @@
+import React from "react";
+
 import CloseIcon from "./icons/CloseIcon";
 import DateIcon from "./icons/DateIcon";
 
