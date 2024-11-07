@@ -25,7 +25,7 @@ export const DEFAULT_COLOR: ColorKeys = "blue";
 
 export const DEFAULT_SEPARATOR = "~";
 
-export const LANGUAGE = "en";
+export const LANGUAGE = "es";
 
 export const DATE_FORMAT = "YYYY-MM-DD";
 
