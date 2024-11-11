@@ -44,7 +44,7 @@ const Week = () => {
                     {ucFirst(
                         shortString(
                             dateFormat(
-                                new Date(2022, 10, 5 + index + startDateModifier), // Ajuste aquí
+                                new Date(2022, 10, 7 + index - startDateModifier + 1),
                                 "ddd",
                                 i18n
                             ) || ""

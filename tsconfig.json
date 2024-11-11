@@ -9,7 +9,7 @@
         "isolatedModules": true,
         "esModuleInterop": true,
         "noEmit": false,
-        "jsx": "react",
+        "jsx": "preserve",
         "allowJs": true,
         "strict": true,
         "noUnusedLocals": true,
@@ -31,6 +31,6 @@
             }
         ]
     },
-    "include": ["src/**/*", ".next/types/**/*.ts"],
+    "include": ["src/**/*", ".next/types/**/*.ts", "dist/types/**/*.ts"],
     "exclude": ["node_modules", ".next"]
 }
